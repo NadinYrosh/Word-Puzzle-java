@@ -15,4 +15,9 @@ public class WordPuzzleTest {
     WordPuzzle testWordPuzzle = new WordPuzzle();
     assertEquals("-d-c-t--n", testWordPuzzle.replaceTheVowels("education"));
   }
+  @Test
+  public void replaceTheVowels_ReplaceAllVowelsForMixedCaseWord_Dash(){
+    WordPuzzle testWordPuzzle = new WordPuzzle();
+    assertEquals("-d-c-t--n", testWordPuzzle.replaceTheVowels("EducatIon"));
+  }
 }
