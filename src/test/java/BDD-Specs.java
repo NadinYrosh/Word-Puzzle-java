@@ -3,6 +3,9 @@
 // 1. Behavior: From input, find single vowel and replace it with "-".
 //   Input: cat;
 //   Output: c-t ;
-// 2.Behavior: From input, find single vowel and replace it with "-".
-//   Input: eat;
-//   Output: --t ;
+// 2.Behavior: From input, find all of the vowel and replace it with "-".
+//   Input: education;
+//   Output: -d-c-t--n ;
+// 2.Behavior: From Mixed Case Word input, find all of the vowel and replace it with "-".
+// //   Input: EducatIon;
+// //   Output: -d-c-t--n ;
