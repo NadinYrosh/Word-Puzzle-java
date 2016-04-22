@@ -6,6 +6,6 @@
 // 2.Behavior: From input, find all of the vowel and replace it with "-".
 //   Input: education;
 //   Output: -d-c-t--n ;
-// 3.Behavior: From Mixed Case Word input, find all of the vowel and replace it with "-".
-// //   Input: EducatIon;
-// //   Output: -d-c-t--n ;
+// 3.Behavior: Keep all Mixed Case Word input, find all of the vowel and replace it with "-".
+// //   Input: EduCaTIon;
+// //   Output: -d-C-T--n ;

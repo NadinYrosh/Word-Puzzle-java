@@ -19,3 +19,8 @@ h1{
 .form-control{
    width: 400px;
 }
+#withDash{
+  padding: 5px;
+  margin: 8px;
+  background-color: #FAFAFA;
+}
