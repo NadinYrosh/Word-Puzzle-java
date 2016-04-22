@@ -10,4 +10,9 @@ public class WordPuzzleTest {
     WordPuzzle testWordPuzzle = new WordPuzzle();
     assertEquals("c-t", testWordPuzzle.replaceTheVowels("cat"));
   }
+  @Test
+  public void replaceTheVowels_ReplaceAllVowelsWithDash_Dash(){
+    WordPuzzle testWordPuzzle = new WordPuzzle();
+    assertEquals("-d-c-t--n", testWordPuzzle.replaceTheVowels("education"));
+  }
 }
